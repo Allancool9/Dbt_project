@@ -1,0 +1,29 @@
+[0m18:28:19.193331 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105b65460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1060fd640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1060fd400>]}
+
+
+============================== 18:28:19.195596 | e39b8cc1-5af5-48f0-abe4-460274b6eba7 ==============================
+[0m18:28:19.195596 [info ] [MainThread]: Running with dbt=1.8.5
+[0m18:28:19.195862 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/Users/creativeallan/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init Covid_data', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:28:19.203555 [debug] [MainThread]: Starter project path: /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/dbt/include/starter_project
+[0m18:28:19.206922 [info ] [MainThread]: 
+Your new dbt project "Covid_data" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:28:19.207088 [info ] [MainThread]: Setting up your profile.
+[0m18:46:06.653516 [info ] [MainThread]: Profile Covid_data written to /Users/creativeallan/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:46:06.694829 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 1067.5032, "process_user_time": 0.535914, "process_kernel_time": 0.134964, "process_mem_max_rss": "117030912", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m18:46:06.696081 [debug] [MainThread]: Command `dbt init` succeeded at 18:46:06.695842 after 1067.50 seconds
+[0m18:46:06.696693 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105b65460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10665bb30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105e84410>]}
+[0m18:46:06.697193 [debug] [MainThread]: Flushing usage events
